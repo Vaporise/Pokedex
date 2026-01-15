@@ -1,0 +1,29 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Usable Pokedex",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js",
+    "test": "vitest --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaporise/Pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaporise/Pokedex/issues"
+  },
+  "homepage": "https://github.com/Vaporise/Pokedex#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
+  }
+}
